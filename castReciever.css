@@ -1,9 +1,9 @@
 .background {
-  background: center no-repeat url(https://mohammadamir.de/static/media/background.e701ae2e.jpg);
+  background: center no-repeat url(background.jpg);
 }
 
 .logo {
-  background-image: url(https://drive.google.com/uc?id=14YieBPt0VVBzGby5l3ii9Ud83aMMNTQh);
+  background-image: url(logo.png);
 }
 
 .progressBar {
@@ -11,10 +11,10 @@
 }
 
 .splash {
-  background-image: url(https://drive.google.com/uc?id=14YieBPt0VVBzGby5l3ii9Ud83aMMNTQh);
+  background-image: url(splash.png);
 }
 
 .watermark {
-  background-image: url(https://drive.google.com/uc?id=14YieBPt0VVBzGby5l3ii9Ud83aMMNTQh);
+  background-image: url(watermark.png);
   background-size: 57px 57px;
 }
