@@ -1,0 +1,20 @@
+.background {
+  background: center no-repeat url(https://mohammadamir.de/static/media/background.e701ae2e.jpg);
+}
+
+.logo {
+  background-image: url(https://drive.google.com/uc?id=14YieBPt0VVBzGby5l3ii9Ud83aMMNTQh);
+}
+
+.progressBar {
+  background-color: rgb(30, 215, 96);
+}
+
+.splash {
+  background-image: url(https://drive.google.com/uc?id=14YieBPt0VVBzGby5l3ii9Ud83aMMNTQh);
+}
+
+.watermark {
+  background-image: url(https://drive.google.com/uc?id=14YieBPt0VVBzGby5l3ii9Ud83aMMNTQh);
+  background-size: 57px 57px;
+}
