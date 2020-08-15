@@ -1,9 +1,11 @@
 .background {
   background: center no-repeat url(background.jpg);
+  background-size: contain;
 }
 
 .logo {
   background-image: url(logo.png);
+  background-size: contain;
 }
 
 .progressBar {
@@ -18,5 +20,6 @@
 
 .watermark {
   background-image: url(watermark.png);
-  background-size: 57px 57px;
+  background-size: contain;
+  background-size: 100px 60px;
 }
