@@ -1,68 +1,23 @@
 <html>
-    <head>
-        <style id="stndz-style"></style>
-        <title>Cast Media Player Demo</title>
-        <!-- -- cast sdk ---->
-        <script type="text/javascript" src="//www.gstatic.com/eureka/castv2/0018/js/cast_receiver.js"></script>
-        <!-- -- cast player ---->
-        <link rel="stylesheet" href="//www.gstatic.com/eureka/player/0000/player.css">
-        <script type="text/javascript" src="//www.gstatic.com/eureka/player/0000/player.js">
-        </script>
-        <link rel="stylesheet" type="text/css" href="https://public-data-server.github.io/castReciever.css">
-        <!-- -- cast player demo ---->
-        <link rel="stylesheet" href="demo.css">
-        <script type="text/javascript" src="demo.js"></script>
-    </head>
-    <body>
-        <div id="container">
-            <div id="player" class="gcpa" type="unknown" state="idle" style="zoom: 1;">
-                <div class="background"></div>
-                <div class="gcpb" style="">
-                    <video></video>
-                    <div class="logo">TV Cast</div>
-                    <div class="gcpr"></div>
-                    <div class="splash"></div>
-                    <div class="watermark"></div>
-                    <div class="gcpc"></div>
-                    <div class="gcpd">
-                        <div class="gcph">
-                            <div class="gcpg"></div>
-                            <div class="gcpf"></div>
-                        </div>
-                        <div class="gcpk">
-                            <span class="gcpl"></span>
-                            <span class="gcpp"></span>
-                            <span class="gcpq"></span>
-                            <div class="gcpm">
-                                <div class="gcpn progressBar"></div>
-                                <div class="gcpo"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="message"></div>
-            </div>
-            <div id="buttons">
-                <div role="button" class="goog-inline-block jfk-button jfk-button-primary" tabindex="0" style="user-select: none;">Load Image</div>
-                <div role="button" class="goog-inline-block jfk-button jfk-button-primary" tabindex="0" style="user-select: none;">Load Audio</div>
-                <div role="button" class="goog-inline-block jfk-button jfk-button-primary" tabindex="0" style="user-select: none;">Load Video</div>
-                <div role="button" class="goog-inline-block jfk-button jfk-button-standard jfk-button-narrow jfk-button-disabled" aria-disabled="true" style="user-select: none;">
-                    <img src="assets/play.png" class="jfk-button-img" style="width: 21px; height: 21px;">
-                </div>
-                <div role="button" class="goog-inline-block jfk-button jfk-button-standard jfk-button-narrow jfk-button-disabled" aria-disabled="true" style="user-select: none;">
-                    <img src="assets/pause.png" class="jfk-button-img" style="width: 21px; height: 21px;">
-                </div>
-                <div role="button" class="goog-inline-block jfk-button jfk-button-standard jfk-button-narrow jfk-button-disabled" aria-disabled="true" style="user-select: none;">
-                    <img src="assets/rewind.png" class="jfk-button-img" style="width: 21px; height: 21px;">
-                </div>
-                <div role="button" class="goog-inline-block jfk-button jfk-button-standard jfk-button-narrow jfk-button-disabled" aria-disabled="true" style="user-select: none;">
-                    <img src="assets/stop.png" class="jfk-button-img" style="width: 21px; height: 21px;">
-                </div>
-            </div>
-            <div id="copyright">
-                Big Buck Bunny © 2008, Blender Foundation<br>
-                <a href="http://www.bigbuckbunny.org" target="_blank">www.bigbuckbunny.org</a>
-            </div>
-        </div>
-    </body>
+  <head>
+    <title>Cast Media Player Demo</title>
+    <! -- cast sdk -->
+    <script type="text/javascript" src="//www.gstatic.com/eureka/castv2/0018/js/cast_receiver.js"></script>
+    <! -- cast player -->
+    <link rel="stylesheet" href="//www.gstatic.com/eureka/player/0000/player.css" />
+    <script type="text/javascript" src="//www.gstatic.com/eureka/player/0000/player.js"></script>
+    <! -- cast player demo -->
+    <link rel="stylesheet" href="demo.css" />
+    <script type="text/javascript" src="demo.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="player"></div>
+      <div id="buttons"></div>
+      <div id="copyright">
+        Big Buck Bunny &copy; 2008, Blender Foundation<br/>
+        <a href="http://www.bigbuckbunny.org" target="_blank">www.bigbuckbunny.org</a>
+      </div>
+    </div>
+  </body>
 </html>
