@@ -1,6 +1,5 @@
 .background {
-  background: center no-repeat url(background.jpg);
-  background-size: contain;
+  background: linear-gradient(seagreen, #135058);
 }
 
 .logo {
