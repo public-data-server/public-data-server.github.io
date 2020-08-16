@@ -4,7 +4,27 @@
 }
 
 .logo {
-  background-image: url(logo.png);
+//  background-image: url(logo.png);
+}
+
+.logo:after, .logo:before {
+  font-weight: 800;
+  white-space: pre;
+  background-color: #000;
+}
+
+.logo:after {
+  content: "Cast Live Tv/Video/Audio to Chromecast";
+  font-size: 32px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.logo:before {
+  content: "TV Cast\a";
+  padding: 0px 15px;
+  font-size: 60px;
+  color: #68c3a3;
 }
 
 .progressBar {
