@@ -12,15 +12,6 @@
                     "color": "msx-glass"                    
                 },
                 "items": [{
-                        "title": "Video 1",                        
-                        "action": "video:http://msx.benzac.de/media/video1.mp4"
-                    }, {
-                        "title": "Video 2",                       
-                        "action": "video:http://msx.benzac.de/media/video2.mp4"
-                    }, {
-                        "title": "Video 3",                       
-                        "action": "video:http://msx.benzac.de/media/video3.mp4"
-                    },{
                         "title": "Video RRR",                       
                         "action": "video:https://proxy77.vkcdn5.com/olaxkx3bthuiolyobglkdvlkgd2yqdbq645utkv6ippn66chjh7qo4po7i2q/v.mp4"
                     }]
@@ -39,10 +30,7 @@
                 "items": [{
                         "title": "Audio 1",
                         "action": "audio:http://msx.benzac.de/media/audio1.mp3"
-                    }, {
-                        "title": "Audio 2",                          
-                        "action": "audio:http://msx.benzac.de/media/audio2.mp3"
-                    }, {
+                    },{
                         "title": "Audio 3",
                         "action": "audio:http://msx.benzac.de/media/audio3.mp3"
                     }]
