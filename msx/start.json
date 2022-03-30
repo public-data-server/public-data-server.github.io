@@ -1,5 +1,5 @@
 {
     "name": "My Example Content",
     "version": "1.0.0",
-    "parameter": "menu:http://{SERVER}/msx/menu.json"
+    "parameter": "menu:https://script.google.com/macros/s/AKfycbw3OJolc5dd5O7C5J3Yret8NP0G3bFL1oXCfYC7vMyvNRnr1g6y/exec"
 }
