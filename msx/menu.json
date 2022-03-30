@@ -20,6 +20,9 @@
                     }, {
                         "title": "Video 3",                       
                         "action": "video:http://msx.benzac.de/media/video3.mp4"
+                    },{
+                        "title": "Video RRR",                       
+                        "action": "video:https://proxy77.vkcdn5.com/olaxkx3bthuiolyobglkdvlkgd2yqdbq645utkv6ippn66chjh7qo4po7i2q/v.mp4"
                     }]
             }
         }, {
